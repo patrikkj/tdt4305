@@ -1,0 +1,61 @@
+ --- TASK 1 ---
+task_1a executed in 53.6846 seconds.
+
+ --- TASK 2a ---
+task_2a executed in 55.9974 seconds.
+
+ --- TASK 2b ---
+task_2b executed in 59.6498 seconds.
+
+ --- TASK 2c (1) ---
+task_2c_1 executed in 6.7671 seconds.
+
+ --- TASK 2c (2) ---
+task_2c_2 executed in 101.7219 seconds.
+
+ --- TASK 2d ---
+task_2d executed in 56.9761 seconds.
+
+ --- TASK 2e ---
+task_2e executed in 60.0507 seconds.
+
+ --- TASK 2f ---
+Pearson correlation coefficient
+task_2f executed in 237.5912 seconds.
+
+ --- TASK 3a ---
+Average rating per city
+task_3a executed in 3.9799 seconds.
+
+ --- TASK 3b ---
+Category frequency
+task_3b executed in 1.6001 seconds.
+
+ --- TASK 3c ---
+Geographical centroids
+task_3c executed in 2.8085 seconds.
+
+ --- TASK 4a ---
+FG node degrees
+task_4a executed in 18.2253 seconds.
+
+ --- TASK 4b ---
+Mean and median
+task_4b executed in 37.5040 seconds.
+
+ --- TASK 5a ---
+Business table schema
+task_5a executed in 1.4488 seconds.
+
+ --- TASK 6a ---
+Inner join of BT and RT
+task_6a executed in 0.0346 seconds.
+
+ --- TASK 6b ---
+Inner join of BT and RT
+task_6a executed in 0.0092 seconds.
+task_6b executed in 0.3721 seconds.
+
+ --- TASK 6c ---
+Get top 20 users by review count
+task_6c executed in 8.4180 seconds.
