@@ -15,9 +15,9 @@ from tdt4305.src.part_1 import task_1, task_2, task_3, task_4, task_5, task_6
 # RT_PATH = "data/yelp_top_reviewers_with_reviews.csv"
 # FG_PATH = "data/yelp_top_users_friendship_graph.csv"
 
-BT_PATH = "data/yelp_businesses_sample.csv"
-RT_PATH = "data/yelp_top_reviewers_with_reviews_sample.csv"
-FG_PATH = "data/yelp_top_users_friendship_graph_sample.csv"
+BT_PATH = "samples/yelp_businesses_sample.csv"
+RT_PATH = "samples/yelp_top_reviewers_with_reviews_sample.csv"
+FG_PATH = "samples/yelp_top_users_friendship_graph_sample.csv"
 paths = (BT_PATH, RT_PATH, FG_PATH) 
 
 
@@ -101,9 +101,10 @@ def run():
 
 
     simpleeee = spark_context.parallelize([("1", ), ("2", ), ("3", ), ("4", )])
-    print(simpleeee.count())
+    # print(simpleeee.count())
     # simpleeee.coalesce(1, True).saveAsTextFile("simpledirectory")
-    simpleeee.repartition(1).saveAsTextFile("./out/lala")
+    simpleeee.coalesce(1, True).saveAsTextFile('./results/result_1.tsv')
+    # simpleeee.repartition(1).saveAsTextFile("./out/lala")
     # task_3.export_to_csv(bt_rdd, rt_rdd, fg_rdd)
 
 

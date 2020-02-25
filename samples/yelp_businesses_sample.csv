@@ -1,0 +1,202 @@
+"business_id"	"name"	"address"	"city"	"state"	"postal_code"	"latitude"	"longitude"	"stars"	"review_count"	"categories"
+--1UhMGODdWsrMastO9DZw	The Spicy Amigos	"821 4 Avenue SW"	Calgary	AB	T2P 0K5	51.0497	-114.08	4	24	Restaurants, Mexican
+--6MefnULPED_I942VcFNA	John's Chinese BBQ Restaurant	"328 Highway 7 E, Chalmers Gate 11, Unit 10"	Richmond Hill	ON	L4B 3P7	43.8417	-79.3998	3	44	Chinese, Restaurants
+--7zmmkVg-IMGaXbuVd0SQ	Primal Brewery	"16432 Old Statesville Rd"	Huntersville	NC	"28078"	35.4371	-80.8437	4	58	Breweries, Food
+--8LPVSo5i0Oo61X01sV9A	Valley Bone and Joint Specialists	"3941 E Baseline Rd, Ste 102"	Gilbert	AZ	"85234"	33.3786	-111.748	3	4	Orthopedists, Doctors, Sports Medicine, Weight Loss Centers, Health & Medical
+--9e1ONYQuAa-CB_Rrw7Tw	Delmonico Steakhouse	"3355 Las Vegas Blvd S"	Las Vegas	NV	"89109"	36.1232	-115.169	4	1613	Cajun/Creole, Seafood, Steakhouses, Restaurants
+--9QQLMTbFzLJ_oT-ON3Xw	Great Clips	"1835 E Guadalupe Rd, Ste 106"	Tempe	AZ	"85283"	33.3628	-111.909	3	12	Beauty & Spas, Hair Salons
+--ab39IjZR_xUf81WyTyHg	Famous Footwear	"1800 E Rio Salado Pky 110, Tempe Marketplace"	Tempe	AZ	"85281"	33.4302	-111.905	4	11	Shoe Stores, Shopping, Sporting Goods, Sports Wear, Fashion, Accessories
+--cgVkbWTiga3OYTkymKqA	Eazor's Auto Salon	"616 Long Rd"	Pittsburgh	PA	"15235"	40.4531	-79.8389	5	10	Automotive, Body Shops
+--cjBEbXMI2obtaRHNSFrA	Howl at the Moon Pittsburgh	"125 7th St"	Pittsburgh	PA	"15222"	40.4438	-80.0003	3	65	Venues & Event Spaces, Music Venues, Nightlife, Dance Clubs, Event Planning & Services, Piano Bars, Bars, Arts & Entertainment
+--cZ6Hhc9F7VkKXxHMVZSQ	Pio Pio	"1408 E Blvd"	Charlotte	NC	"28203"	35.1999	-80.8448	4	346	Restaurants, Spanish, Peruvian, Colombian, Latin American
+--DaPTJW3-tB1vP-PfdTEg	Sunnyside Grill	"1218 Saint Clair Avenue W"	Toronto	ON	M6E	43.6778	-79.4447	3	49	Restaurants, Breakfast & Brunch
+--DdmeR16TRb3LsjG0ejrQ	World Food Championships	"3645 Las Vegas Blvd S"	Las Vegas	NV	"89109"	36.1142	-115.171	3	5	Arts & Entertainment, Festivals
+--e8PjCNhEz32pprnPhCwQ	Lucky's Pet Grooming & Boutique	"1460 E Charleston Blvd"	Las Vegas	NV	"89104"	36.1589	-115.133	3	29	Pet Services, Pets, Pet Stores, Pet Groomers
+--EF5N7P70J_UYBTPypYlA	MV Nail Spa	"24139 Lorain Rd"	North Olmsted	OH	"44070"	41.4286	-81.8892	3	7	Beauty & Spas, Nail Salons
+--EX4rRznJrltyn-34Jz1w	Bath & Body Works	"6801 Northlake Mall Dr"	Charlotte	NC	"28216"	35.3526	-80.8512	4	4	Shopping, Beauty & Spas, Cosmetics & Beauty Supply
+--FBCX-N37CMYDfs790Bnw	The Bar At Bermuda & St. Rose	"11624 Bermuda Rd"	Henderson	NV	"89052"	35.9787	-115.155	4	135	Nightlife, Beer, Wine & Spirits, Bars, Restaurants, American (New), Food
+--FLdgM0GNpXVMn74ppCGw	Welch Physical Therapy	"3011 S Lindsay Rd, Bldg 6, Ste 114"	Gilbert	AZ	"85296"	33.2955	-111.773	4	16	Health & Medical, Physical Therapy
+--g-a85VwrdZJNf0R95GcQ	Kabab House	"3510 E Bell Rd, Ste 3"	Phoenix	AZ	"85032"	33.6413	-112.006	4	23	Lebanese, Restaurants, Mediterranean, Middle Eastern, Food, Arabian, Juice Bars & Smoothies, Halal, Turkish, Greek
+--Gc998IMjLn8yr-HTzGUg	Sushiya	"1950 Chemin Fer à Cheval"	Sainte-Julie	QC	J3E 2T6	45.5754	-73.3266	3	3	Buffets, Restaurants, Japanese, Sushi Bars
+--GM_ORV2cYS-h38DSaCLw	Mm Mm Pizza	"407 S Central Ave"	Canonsburg	PA	"15317"	40.2525	-80.1839	3	10	Restaurants, Pizza, Chicken Wings, Salad
+--i1tTcggBi4cPkd-h5hDg	Lake Erie Nature & Science Center	"28728 Wolf Rd"	Bay Village	OH	"44140"	41.4857	-81.9373	4	21	Educational Services, Parks, Museums, Active Life, Education, Arts & Entertainment
+--I7YYLada0tSLkORTHb5Q	Happy Moose Bar and Grill	"9436 State Rte 14"	Streetsboro	OH	"44241"	41.2429	-81.3527	3	96	Nightlife, Sports Bars, Restaurants, Bars, American (Traditional)
+--irMpXK9y_xLlXPvPAQvw	Ronald Mcdonald House of Charlotte	"1613 E Morehead St"	Charlotte	NC	"28207"	35.2036	-80.8338	5	3	Home Health Care, Community Service/Non-Profit, Health & Medical, Local Services
+--j-kaNMCo1-DYzddCsA5Q	Q's Nails	"3039 S Blvd, Ste C"	Charlotte	NC	"28209"	35.1974	-80.8688	4	4	Hair Removal, Nail Technicians, Beauty & Spas, Nail Salons, Waxing, Day Spas
+--KCl2FvVQpvjzmZSPyviA	Hungry Howie's Pizza	"6426 W Sugar Creek Rd, Unit A"	Charlotte	NC	"28269"	35.3335	-80.7962	3	13	Restaurants, Pizza, Sandwiches
+--kinfHwmtdjz03g8B8z8Q	The Manor - Boutique Salon	"659 Mt Pleasant Road"	Toronto	ON	M4S	43.7055	-79.3887	5	8	Day Spas, Beauty & Spas, Hair Salons
+--KQsXc-clkO7oHRqGzSzg	Sam's Club	"15255 N Northsight Blvd"	Scottsdale	AZ	"85260"	33.6224	-111.895	3	35	Department Stores, Tires, Wholesale Stores, Fashion, Shopping, Automotive
+--lpHMVmkCuji0ZrpHtXEA	SkinRN	"2610 Horizon Ridge Pkwy, Ste 100"	Henderson	NV	"89052"	36.0028	-115.102	5	3	Laser Hair Removal, Hair Removal, Beauty & Spas, Health & Medical, Skin Care, Medical Spas
+--lZAZSwpP_axKoL4lR9dQ	C Market	"1006 Avenue Pape"	East York	ON	M4K 3V9	43.6886	-79.3487	4	3	Delis, Restaurants, Sandwiches
+--Ni3oJ4VOqfOEu7Sj2Vzg	KFC	"1245 Pearl Rd"	Brunswick	OH	"44212"	41.2419	-81.8411	2	6	Chicken Wings, Restaurants, Fast Food, Chicken Shop
+--o5BoU7qYMALeVDK6mwVg	Nightlife Tours	"1516 E Tropicana Ave, Ste 275"	Las Vegas	NV	"89109"	36.1016	-115.132	3	6	Hotels & Travel, Adult Entertainment, Dance Clubs, Tours, Arts & Entertainment, Event Planning & Services, Bus Tours, Party & Event Planning, Nightlife, Music Venues, Club Crawl
+--orEUqwTzz5QKbmyYbAWw	Advantage Rent-A-Car	"1805 East Sky Harbor Circle S"	Phoenix	AZ	"85034"	33.4304	-112.045	2	3	Hotels & Travel, Car Rental
+--phjqoPSPa8sLmUVNby9w	Maricopa County Department of Public Health	"1645 E Roosevelt St"	Phoenix	AZ	"85006"	33.4581	-112.046	4	10	Medical Centers, Public Services & Government, Health & Medical
+--q6datkI-f0EoVheXNEeQ	Santa Claus Parade	"139 Wendell Avenue"	North York	ON	M9N 3K9	43.715	-79.5262	3	4	Festivals, Arts & Entertainment
+--q7kSBRb0vWC8lSkXFByA	Double Play Sports Bar	"9495 Las Vegas Blvd S"	Las Vegas	NV	"89123"	36.0167	-115.173	4	7	Pizza, Bars, Sports Bars, Restaurants, Nightlife
+--qvQS4MigHPykD2GV0-zw	Pearson Moving	"3498 N San Marcos Pl, Ste 5"	Chandler	AZ	"85225"	33.3562	-111.845	4	45	Shopping, Local Services, Self Storage, Movers, Packing Supplies, Packing Services, Professional Services, Home Services
+--Rsj71PBe31h5YljVseKA	Circle K	"1850 W Happy Valley Rd"	Phoenix	AZ	"85085"	33.7134	-112.099	3	9	Convenience Stores, Coffee & Tea, Food, Gas Stations, Automotive
+--S62v0QgkqQaVUhFnNHrw	Denny's	"6207 Wilson Mills Rd"	Highland Heights	OH	"44143"	41.5394	-81.4552	2	42	Breakfast & Brunch, American (Traditional), Restaurants, Diners
+--SrzpvFLwP_YFwB_Cetow	Keung Kee Restaurant	"3300 Midland Avenue, Unit 41"	Toronto	ON	M1V 0C7	43.8068	-79.2889	3	43	Chinese, Restaurants
+--TcDRzRIxhvHM4DSgEuMA	The Greens	"2241 N Green Valley Pkwy"	Henderson	NV	"89014"	36.0548	-115.084	2	7	Food, Nightlife, Lounges, Bars
+--ttCFj_csKJhxnaMRNuiw	Impressions Dental	"5970 S Cooper Rd, Ste 1"	Chandler	AZ	"85249"	33.2195	-111.807	2	39	General Dentistry, Health & Medical, Dentists, Cosmetic Dentists, Oral Surgeons
+--U98MNlDym2cLn36BBPgQ	Pronto Pizza	"7870 Idlewild Rd"	Indian Trail	NC	"28079"	35.107	-80.6326	3	4	Pizza, Restaurants
+--ujyvoQlwVoBgMYtADiLA	Primanti Bros	"830 Clairton Blvd"	Pittsburgh	PA	"15236"	40.3239	-79.9438	3	74	Restaurants, American (New), Bars, Sandwiches, Nightlife, Sports Bars
+--VMPfs4zfZJtQbqzJsNhg	Charlotte Root Canal Center	"2809 Coltsgate Rd"	Charlotte	NC	"28211"	35.1492	-80.8276	3	8	General Dentistry, Health & Medical, Dentists, Orthodontists, Endodontists, Cosmetic Dentists
+--wIGbLEhlpl_UeAIyDmZQ	Galaxie Electronics	"2136 Murray Ave"	Pittsburgh	PA	"15217"	40.4328	-79.9234	4	14	Electronics, Professional Services, Local Services, Electronics Repair, Computers, Shopping
+--WsruI0IGEoeRmkErU5Gg	Dial Carpet Cleaning	"3111 S Valley View Blvd, Ste H-104"	Las Vegas	NV	"89102"	36.1309	-115.191	4	15	Carpet Cleaning, Local Services
+--Y7NhBKzLTbNliMUX_wfg	Pinnacle Restoration	NULL	Las Vegas	NV	"89148"	36.0612	-115.29	5	9	Drywall Installation & Repair, Contractors, Damage Restoration, Handyman, Home Services
+--YPwqIlRJrhHkJcjY3eiA	That Old Retro Store	"1314 A 9th Avenue SE"	Calgary	AB	T2G 0T3	51.041	-114.033	2	3	Vinyl Records, Shopping, Books, Mags, Music & Video, Local Services, Electronics Repair, Electronics
+--z7PM8AGaJP0aBmGMY7RA	Nacho Mobile Auto Repair	"2954 Westwood Dr"	Las Vegas	NV	"89109"	36.1357	-115.176	5	24	Auto Repair, Automotive
+-000aQFeK6tqVLndf7xORg	Cool Cat Auto Repair	"6348 N 27th Ave"	Phoenix	AZ	"85017"	33.5311	-112.118	5	7	Automotive, Auto Repair
+-00iClV0kYHkvipphtNn7Q	Tonyc Salon & Spa	"25 The West Mall"	Etobicoke	ON	M9C 1B8	43.6117	-79.5572	4	11	Beauty & Spas, Hair Salons, Hair Removal, Hair Extensions, Day Spas, Blow Dry/Out Services, Laser Hair Removal
+-01XupAWZEXbdNbxNg5mEg	"18 Degrees"	"9375 E Bell Rd"	Scottsdale	AZ	"85260"	33.6392	-111.882	3	99	Nightlife, Sports Bars, American (New), Breakfast & Brunch, Pizza, Bars, Restaurants, American (Traditional)
+-03HVYxkeYWaafEpNJo1SA	GoodLife Vapes	"2095 Yonge Street"	Toronto	ON	M4S 2A5	43.703	-79.3974	4	5	Tobacco Shops, Electronics, Shopping, Vape Shops
+-050d_XIor1NpCuWkbIVaQ	Matt's Big Breakfast	"801 N 1st St"	Phoenix	AZ	"85004"	33.4567	-112.072	4	703	Restaurants, Breakfast & Brunch
+-05uZNVbb8DhFweTEOoDVg	Subway	"333 S Century Blvd"	Rantoul	IL	"61866"	40.3068	-88.1555	2	3	Sandwiches, Restaurants, Fast Food
+-06-Fdi30wJx-JA8P7CAng	China House	"27241 Wolf Rd"	Bay Village	OH	"44140"	41.4844	-81.9219	3	35	Restaurants, Chinese, Seafood, Cantonese, Szechuan
+-092wE7j5HZOogMLAh40zA	Wong's Jr	"8317 W Peoria Ave"	Peoria	AZ	"85345"	33.582	-112.237	3	92	Chinese, Restaurants
+-0aIra_B6iALlfqAriBSYA	Tea2go	"5415 E High St, Ste 103"	Phoenix	AZ	"85054"	33.6755	-111.965	4	32	Tea Rooms, Coffee & Tea, Food, Restaurants
+-0aOudcaAyac0VJbMX-L1g	Express Pizza & Grill	"4917 Bathurst"	Toronto	ON	M2R 1X8	43.7732	-79.4426	3	15	Pizza, Middle Eastern, Restaurants
+-0b86isaXMY0v4g-V8GZ9Q	Knitting Tree	"2614 Monroe St"	Madison	WI	"53711"	43.0576	-89.4284	3	11	Shopping, Accessories, Jewelry, Fashion, Knitting Supplies, Art Supplies, Arts & Crafts
+-0BxAGlIk5DJAGVkpqBXxg	The Coffee Bean & Tea Leaf	"3355 Las Vegas Blvd S"	Las Vegas	NV	"89162"	36.1229	-115.169	3	44	Food, Restaurants, Coffee & Tea
+-0CCHBui57tZ_1y_14X-5Q	Mulberry Bar	"828 Bloor Street W"	Toronto	ON	M6G 1M2	43.6626	-79.4234	4	6	Nightlife, Cocktail Bars, Bars
+-0CTrPQNiSyClxhdO4HSDQ	Pizza Hut	"3555 Don Mills Road"	North York	ON	M2H 3N3	43.7944	-79.3538	2	21	Chicken Wings, Food Delivery Services, Restaurants, Pizza, Italian, Food
+-0d-BfFSU0bwLcnMaGRxYw	Beauty Nails	"1196 Bloor Street W"	Toronto	ON	M6H 1N2	43.6594	-79.4381	2	10	Nail Salons, Beauty & Spas
+-0d4L4U3vKnTT0MEgyX_WA	Pick N Puff	"6620 W Flamingo Rd, Ste 9"	Las Vegas	NV	"89103"	36.115	-115.237	5	8	Tobacco Shops, Shopping, Vape Shops
+-0DET7VdEQOJVJ_v6klEug	Flaming Kitchen	"3235 York Regional Road 7"	Markham	ON	L3R 3P9	43.8484	-79.3487	3	103	Asian Fusion, Restaurants
+-0DwB6Swi349EKfbBAOF7A	Qi Natural Foods	"710 Bloor Street W"	Toronto	ON	M6G 1L4	43.6637	-79.4178	3	11	Specialty Food, Food, Shopping, Herbs & Spices, Health Markets
+-0dWjxaPKrXAn8urSnkSLA	Sandcastle Water Park	"1000 Sandcastle Dr"	Homestead	PA	"15120"	40.3985	-79.9268	3	36	Active Life, Amusement Parks, Swimming Pools, Water Parks
+-0Eb_A0tSrxLRQkKI9jx_g	Travel Leaders	"23601 Lorain Rd"	North Olmsted	OH	"44070"	41.4325	-81.8829	4	5	Hotels & Travel, Travel Services
+-0FA-Qdi3SPYIoJz9UQw-A	J Bon Hair Spa	"3215 HWY 7 East, Unit G1A"	Markham	ON	L3R 3P3	43.8503	-79.3513	5	3	Beauty & Spas, Hair Salons
+-0Fendn2TmhDJ-1s6gPi5g	Tyler M. Christensen, DDS	"10521 Jeffreys St, Ste 200"	Henderson	NV	"89052"	36.0006	-115.12	4	19	Endodontists, Health & Medical, General Dentistry, Cosmetic Dentists, Dentists
+-0gEYa7iHAshDcMvJ0Vuag	Sugar Me Clean Beauty Lounge	"9640 W Tropicana Ave, Rm 116, Studio Salon"	Las Vegas	NV	"89147"	36.1013	-115.303	5	22	Skin Care, Spray Tanning, Tanning, Hair Removal, Sugaring, Beauty & Spas
+-0GU6ghA7z4-xotUZfXl1w	Sport Clips Haircuts of Chandler	"800 N 54th St, Ste L-2"	Chandler	AZ	"85226"	33.3156	-111.969	4	11	Barbers, Men's Hair Salons, Beauty & Spas, Hair Salons
+-0Hj1hb_XW6ybWq2M7QhGA	Fair Oaks Nursery and Garden Center	"134 S Fair Oaks Ave"	Madison	WI	"53704"	43.0965	-89.3374	3	8	Shopping, Home & Garden, Nurseries & Gardening
+-0jz6c3C6i7RG7Ag22K-Pg	Auto Action	"5433 W Glendale Ave"	Glendale	AZ	"85301"	33.5381	-112.177	2	6	Car Dealers, Automotive, Used Car Dealers
+-0K4W5p3wbQe_vDoB5jMgQ	Panda Supermarket	"5846 Forbes Ave"	Pittsburgh	PA	"15217"	40.4377	-79.9219	4	8	International Grocery, Grocery, Beauty & Spas, Shopping, Food, Cosmetics & Beauty Supply
+-0KMvRFwDWdVBeTpT11iHw	Pizza Nova	"18 Levendale Rd"	Richmond Hill	ON	L4C 4H2	43.8822	-79.4411	2	3	Pizza, Restaurants
+-0KqNhmK40DTzwUPM_Ik9g	Wesley Bolin Memorial Plaza	"1700 W Washington St"	Phoenix	AZ	"85007"	33.4483	-112.098	4	17	Public Services & Government, Landmarks & Historical Buildings
+-0KSt9tXv6C015vmAcSIcg	Leisure Lawn	NULL	Las Vegas	NV	"89139"	36.0402	-115.224	5	4	Landscape Architects, Landscaping, Home Services, Artificial Turf
+-0lbeUxS9QDBtIS5KtPKZw	Charlotte Natural Wellness	"10722 Carmel Commons Blvd, Ste 450"	Charlotte	NC	"28226"	35.0863	-80.8515	4	4	Nutritionists, Weight Loss Centers, Health & Medical, Naturopathic/Holistic, Doctors, Family Practice
+-0LPtgJC31FWMrMv317p0Q	Chase Bank	"1805 Brittain Rd"	Akron	OH	"44310"	41.1115	-81.4655	3	5	Banks & Credit Unions, Financial Services
+-0M3o2uWBnQZwd3hmfEwuw	Ana's Nail Boutique & Spa	"3349 Bloor Street W"	Toronto	ON	M8X 1E9	43.6448	-79.5219	4	10	Nail Salons, Waxing, Beauty & Spas, Hair Removal, Eyelash Service
+-0mgn9dRi95otXd_h61LdA	Buda Cafe	"5418 Yonge Street"	North York	ON	M2N 6X4	43.7756	-79.4148	3	23	Cafes, Hookah Bars, Sandwiches, Lounges, Nightlife, Bars, Restaurants
+-0mm8pqBSIOYZQHeo8XnkA	Philthy Philly's	"56 Davis Drive"	Newmarket	ON	L3Y 2M7	44.0548	-79.4775	4	41	Poutineries, Cheesesteaks, Restaurants
+-0NhdsDJsdarxyDPR523ZQ	Akco Lounge	"100 King St W"	Toronto	ON	M5X 1K7	43.6491	-79.3806	3	22	Korean, Japanese, Restaurants
+-0NrB58jqKqJfuUCDupcsw	The Fry	"4864 Yonge Street"	North York	ON	M2N 5N2	43.7629	-79.4115	3	99	Bars, Korean, Food, Southern, Restaurants, Nightlife, Soul Food
+-0oNlErLlU7PQa-TpespdA	Eighty Seven W Wine Bar	"87 West St"	Chagrin Falls	OH	"44022"	41.4317	-81.3935	4	7	Nightlife, Wine Bars, Bars
+-0qht1roIqleKiQkBLDkbw	Cancun Resort Las Vegas by Diamond Resorts	"8335 Las Vegas Blvd S"	Las Vegas	NV	"89123"	36.038	-115.173	3	392	Event Planning & Services, Hotels, Hotels & Travel
+-0qqsy04kcYdXH3DOciaZw	Eagle Crest Golf Course	"2203 Thomas  Ryan Blvd"	Las Vegas	NV	"89134"	36.2005	-115.334	4	30	Golf, Active Life
+-0QtTRrAMn6DKLZNef3Ojg	Al-Salam Market & Deli	"10901 University City Blvd, Ste 104"	Charlotte	NC	"28213"	35.3145	-80.7027	2	3	Ethnic Food, Food, Delis, Specialty Food, Restaurants, Meat Shops, Grocery, Convenience Stores
+-0RkJ_uIduNLWQrphbADRw	Rooster Boy Cafe	"2620 Regatta Dr, Ste 113"	Las Vegas	NV	"89128"	36.2075	-115.268	4	61	Coffee & Tea, Cafes, Food, Restaurants, Breakfast & Brunch
+-0RRiWDtfnS16AKCtfvBZg	The Independent	"96 Spadina Avenue, 1 Floor"	Toronto	ON	M5V 2J6	43.6464	-79.3959	4	6	Books, Mags, Music & Video, Bookstores, Sandwiches, Shopping, Food, Restaurants, Coffee & Tea
+-0RU0vASJOV383dYA8VZgA	Pho Hoan Pasteur	"160- 7 Mahogany Plaza SE"	Calgary	AB	T3M 2P8	50.8989	-113.942	4	9	Noodles, Vietnamese, Restaurants
+-0Sgh0QlUKVsWosCWJzGqQ	Domino's Pizza	"681 E Apache Blvd, Ste 104"	Tempe	AZ	"85281"	33.4143	-111.929	2	47	Sandwiches, Restaurants, Chicken Wings, Pizza
+-0T0jfPnuBRdpNTXpOQZcA	Tim Hortons	"9970 Highway 48"	Markham	ON	L3P 3J3	43.9086	-79.2684	1	6	Food, Coffee & Tea, Restaurants, Sandwiches, Breakfast & Brunch
+-0t6o9LXMVQ3aV8CHhRTnA	AZ International Marketplace	"1920 W Broadway Rd"	Mesa	AZ	"85202"	33.4089	-111.873	3	71	Food, Grocery, Ethnic Grocery, International Grocery
+-0tgMGl7D9B10YjSN2ujLA	Dubliner	"3841 E Thunderbird Rd, Ste 111"	Phoenix	AZ	"85032"	33.6111	-111.999	3	130	Irish Pub, Pubs, Nightlife, Irish, Bars, Music Venues, Restaurants, Arts & Entertainment
+-0uEqc2vw1xXtuI_r1xTNg	Le Roy Pendu	"804 Roy E"	Montréal	QC	H2L 1E3	45.521	-73.571	3	6	Tapas/Small Plates, Restaurants, Breakfast & Brunch
+-0VImVWDeqewaA3th8fzIg	Bachelor Vegas	"4290 Cameron St, Ste 3A"	Las Vegas	NV	"89103"	36.1119	-115.203	5	27	Event Planning & Services, Party & Event Planning, Transportation, Limos, Party Bus Rentals, Hotels & Travel, Venues & Event Spaces, Bars, Lounges, Nightlife, Dance Clubs
+-0WegMt6Cy966qlDKhu6jA	Game Seven Grill	"201 S 4th St"	Phoenix	AZ	"85034"	33.4456	-112.068	2	100	Burgers, Restaurants, Barbeque, American (Traditional)
+-0XFoI1UKfuRKwyAl85zAQ	Best Western Inn	"636 Griswold Rd"	Elyria	OH	"44035"	41.4001	-82.1182	3	14	Hotels & Travel, Event Planning & Services, Hotels
+-0y3MZU2oYP8r1ruDP1bfQ	Tryon Eye Associates	"8180 S Tryon St"	Charlotte	NC	"28273"	35.1461	-80.9341	4	3	Optometrists, Health & Medical
+-0YY5yQ3ufLB6EoPBsHGig	Wen H. Wang, DDS	"949 N Val Vista Dr, Ste 101"	Gilbert	AZ	"85234"	33.3674	-111.755	5	3	Dentists, Health & Medical, General Dentistry
+-0ZO00Vm2ADchytlEkoXmg	Kidz Cuts By Lori	"1535 W Warm Springs Rd"	Henderson	NV	"89014"	36.0557	-115.052	5	78	Hair Salons, Beauty & Spas, Hair Stylists
+-0ZumLlFjMh4ZW1z2nXGug	Kenny Ross Automotive	"11250 Rte 30"	North Huntingdon	PA	"15642"	40.3279	-79.7292	3	3	Automotive, Car Dealers, Auto Repair
+-113IAvSQ4Nn_Jk7OrrPkg	Rent-a-Son	"82 St Regis Crescent North"	Toronto	ON	M3J 1Z3	43.757	-79.4826	4	4	Home Services, Gardeners, Movers, Home Cleaning, Self Storage, Local Services
+-11PbySWhJQtK6USx4IP2A	Uptown Jungle Fun Park Mesa	"5741 E McKellips Rd"	Mesa	AZ	"85215"	33.4511	-111.708	4	152	Active Life, Party & Event Planning, Recreation Centers, Venues & Event Spaces, Indoor Playcentre, Climbing, Playgrounds, Trampoline Parks, Event Planning & Services
+-153AjTW5luZPK4omEujWA	Jody Maroni's Sausage Kingdom	New York New York Hotel & Casino, 3790 Las Vegas Blvd S	Las Vegas	NV	"89109"	36.103	-115.174	3	5	Hot Dogs, Restaurants
+-17RjDnOY9c7IsCcYUjx5Q	Catholic Charities	"915 S Rainbow Blvd"	Las Vegas	NV	"89145"	36.1611	-115.245	3	13	Shopping, Thrift Stores
+-17Uz92KtnWOpeEGVvg17g	BCT Flooring and Showers	NULL	Tempe	AZ	"85282"	33.3891	-111.918	1	3	Flooring, Home Services
+-1BPe8UjF2_l3nVk-DFUjA	Journey Massage Therapy	NULL	Scottsdale	AZ	"85259"	33.591	-111.797	5	8	Day Spas, Massage Therapy, Health & Medical, Beauty & Spas
+-1CI4H3DLkI-NdWLbIae6g	Benny&Co.	"1919 Chemin du Fer à Cheval"	Sainte-Julie	QC	J3E 2T4	45.5762	-73.3282	3	5	Barbeque, Chicken Shop, Chicken Wings, Restaurants, Fast Food, Poutineries
+-1dMU2kz5AhTC6N1W9xwuQ	Ted Wiens Tire & Auto	"3810 Spring Mountain Rd"	Las Vegas	NV	"89102"	36.1271	-115.191	3	35	Oil Change Stations, Tires, Automotive, Auto Repair
+-1ea69SVW-MJsaGQrA48dQ	Jimmy Johns	"463 East Aurora Rd"	Macedonia	OH	"44056"	41.3144	-81.522	2	6	Restaurants, Sandwiches, Delis, Fast Food
+-1fwceFQw5NAemdPRrhP0g	Rite Aid	"4411 Howley St"	Pittsburgh	PA	"15224"	40.4646	-79.9527	3	8	Shopping, Convenience Stores, Food, Drugstores
+-1G5n-Pnu3I7gjh7-_VRxw	Smile! Dental Center	"500 Grandview Crossing, Ste 30"	Gibsonia	PA	"15044"	40.6427	-79.9401	4	5	Dentists, General Dentistry, Cosmetic Dentists, Pediatric Dentists, Health & Medical
+-1HW4ALuB331RgjwHOA0Nw	Wendy's	"4305 Kent Rd"	Stow	OH	"44224"	41.1568	-81.4048	2	6	Restaurants, Fast Food, Burgers
+-1HXmPtVIHEcrFKtVQQMRw	Bikram Yoga	"190 Bovaird Drive W"	Brampton	ON	L7A 1A2	43.7031	-79.7922	3	3	Yoga, Fitness & Instruction, Active Life
+-1izGjM4YDWiJaYcy2Oxqg	Glorious Carpets	"1130  44th Avenue SE"	Calgary	AB	T2G 4W6	51.0139	-114.039	3	3	Carpeting, Home Services, Carpet Installation, Flooring
+-1Jq9x77Es6Ce1EJM4WhwQ	Bruce Trent Park	"8851 Vegas Dr"	Las Vegas	NV	"89128"	36.1866	-115.286	3	17	Local Flavor, Parks, Active Life, Playgrounds, Tennis
+-1LvG5O5lzfqUeti0Z3L5Q	Futuretel Service Centre	"570 Alden Road"	Markham	ON	L3R 8N5	43.8382	-79.3315	2	13	Shopping, Mobile Phones
+-1M5tD61bfyHGJMjxq6uMA	Shine Time	NULL	Surprise	AZ	"85388"	33.6129	-112.447	5	5	Office Cleaning, Professional Services, Home Cleaning, Home Services, Contractors
+-1m9o3vGRA8IBPNvNqKLmA	Bavette's Steakhouse & Bar	"3770 Las Vegas Blvd S"	Las Vegas	NV	"89109"	36.1043	-115.176	4	251	Bars, Cocktail Bars, Restaurants, African, Seafood, American (New), Steakhouses, Nightlife
+-1mjIwXWiI1uzy-8nGkdkw	Bridal Fashion Debut	"33 S 3rd St"	Phoenix	AZ	"85004"	33.4475	-112.069	4	11	Shopping, Bridal, Event Planning & Services, Wedding Planning
+-1MVd6ljY2JT6gCKnrc-uw	U-Haul Neighborhood Dealer	"1650 Crestdale Ln"	Las Vegas	NV	"89144"	36.1905	-115.317	4	6	Self Storage, Home Services, Movers, Truck Rental, Packing Supplies, Shopping, Automotive, Local Services
+-1NPtXJaDSoqxQPxt3rg3Q	Mister Vapor	"2468 St. Clair Avenue W"	Toronto	ON	M6N 1L3	43.6691	-79.4838	5	4	Vape Shops, Shopping
+-1oGM0x0i7I88C9g9w8XUw	Zonie Cuts	"10328 W Indian School Rd, Ste 2"	Phoenix	AZ	"85037"	33.494	-112.283	5	3	Beauty & Spas, Barbers
+-1PwcnMwaztBRKah7lrWBg	Ulta Beauty	"301 South Hills Village"	Pittsburgh	PA	"15241"	40.3422	-80.0556	3	14	Cosmetics & Beauty Supply, Beauty & Spas, Shopping, Hair Salons, Skin Care
+-1sjyJNHTqFgM7GZGK7L7A	Petals & Kettles Floral Gallery	"201 N Central Ave, Ste CC6"	Phoenix	AZ	"85004"	33.4509	-112.073	1	8	Flowers & Gifts, Fashion, Shopping, Florists, Hats
+-1TUzO4XCmOeqi9eAGeDWA	Beaumont Tire & Auto Repair	"1202 W Bloomington Rd"	Champaign	IL	"61821"	40.1361	-88.2661	4	15	Automotive, Tires, Auto Repair
+-1u4Q4U6OZ-CvqoxUh7gKg	Las Canarias	"1129-17th Avenue SW"	Calgary	AB	T2T 0B6	51.0377	-114.089	4	21	Spanish, Tapas Bars, Tapas/Small Plates, Restaurants
+-1UMR00eXtwaeh59pEiDjA	Matt's Big Breakfast	"3800 E Sky Harbor Blvd, Terminal 4, Gate B5"	Phoenix	AZ	"85034"	33.4369	-111.997	3	412	Nightlife, Sandwiches, Bars, Cocktail Bars, Restaurants, Food, Breakfast & Brunch
+-1uVyyy3UXNA9WoPucNniA	La Tapatia Market	"8826 S Eastern Ave, Ste 100"	Las Vegas	NV	"89123"	36.0291	-115.117	4	39	Food, Butcher, Specialty Food, Fruits & Veggies, Grocery, Seafood Markets, Meat Shops
+-1VaIJza42Hjev6ukacCNg	Rio Mirage Cafe Y Cantina	"12245 W Santa Fe Dr"	El Mirage	AZ	"85335"	33.6174	-112.324	4	210	Tex-Mex, Mexican, Restaurants
+-1vfRrlnNnNJ5boOVghMPA	Red Ginseng Narita Sushi & BBQ	"6630 N Durango Dr, Ste 180"	Las Vegas	NV	"89149"	36.2813	-115.287	3	78	Korean, Restaurants, Sushi Bars
+-1Vsn0h_Sju8xbospJDwQw	The Body Lab	"21001 N Tatum Blvd, Ste U7"	Phoenix	AZ	"85054"	33.6764	-111.976	4	19	Cardio Classes, Fitness & Instruction, Pilates, Active Life
+-1vulUmD1pYf0uvXBY1Fzg	Night Market Cleveland	Rockwell & 21st St	Cleveland	OH	"44120"	41.5092	-81.6776	4	14	Arts & Entertainment, Festivals, Food, Food Trucks, Farmers Market, Nightlife
+-1W8v_0LVdvXMtynNcn4aA	Red Rock Canyon Tours	"4262 Blue Diamond Rd, 102-200, 102-200"	Las Vegas	NV	"89139"	36.038	-115.197	5	4	Bus Tours, Tours, Travel Services, Hotels & Travel
+-1wzk43IZ5D9Ysu6kzb5xA	St James Dennis R Physical Therapy	"532 E Maryland Ave, Ste C"	Phoenix	AZ	"85012"	33.5313	-112.066	5	4	Physical Therapy, Health & Medical
+-1X2bBZAN1xfUxRXKPrxlQ	Brookstone	"4550 E Cactus Rd"	Phoenix	AZ	"85032"	33.6022	-111.984	4	4	Shopping, Flowers & Gifts, Appliances, Gift Shops, Electronics, Toy Stores, Home & Garden
+-1xCh7Cocn6IwFzhELyohA	Jose' and Tony's Mexican Restaurant	"1573 McFarland Rd"	Pittsburgh	PA	"15216"	40.3931	-80.0459	2	42	Nightlife, Bars, Restaurants, Sports Bars, Mexican
+-1XjZKmJbfAB1ZrAfeWMZg	Maid 2 B Cleaned	NULL	Gilbert	AZ	"85296"	33.3346	-111.738	4	10	Home Cleaning, Home Services, Professional Services, Office Cleaning
+-1xuC540Nycht_iWFeJ-dw	Romados	"115 Rue Rachel E"	Montréal	QC	H2W 1C8	45.5193	-73.5807	4	465	Restaurants, Portuguese, Bakeries, Food, Chicken Shop, Barbeque
+-1z-cvNWGM66kKTVNHK9Ww	Foothills Sports Medicine Physical Therapy	"4550 E Bell Rd, Ste 270"	Phoenix	AZ	"85032"	33.6421	-111.983	4	22	Doctors, Physical Therapy, Health & Medical, Sports Medicine
+-20nZ6ztmBxGW4sOY7JPHA	Travelodge	"6935 E 5th Ave"	Scottsdale	AZ	"85251"	33.4961	-111.931	1	12	Event Planning & Services, Hotels & Travel, Hotels
+-20P7Av7rbvx1DEb9k7PjQ	Yours to Mine Consignment	"251 Church Rd"	Wexford	PA	"15090"	40.6278	-80.0561	3	9	Shopping, Thrift Stores
+-20PsGUoi0cK3hKwtFoh2w	Graceland Presents Elvis	NULL	Las Vegas	NV	"89109"	36.1363	-115.151	3	5	Performing Arts, Nightlife, Arts & Entertainment, Music Venues, Museums
+-25X5v1q3WU6s-craJSvTw	Wok Terminal	"156 The Queensway"	Etobicoke	ON	M8Y 1J2	43.6306	-79.4848	3	23	Imported Food, Food, Ethnic Food, Chinese, Specialty Food, Restaurants
+-26MGfikhJiTfCI-GqmzhQ	GoPro Door & Glass	"2350 S Jones, Ste 207"	Las Vegas	NV	"89146"	36.1458	-115.225	4	6	Home Services, Contractors, Door Sales/Installation, Glass & Mirrors
+-28hEE6AcAUbJctGwvC9kw	Culinary Pharmacy	"1945 Las Vegas Blvd S"	Las Vegas	NV	"89104"	36.1491	-115.154	5	8	Drugstores, Health & Medical, Shopping
+-2A9emZwBK8zYHPnAmM0hw	China Farm Chinese Buffet	"3135 S 48th St"	Tempe	AZ	"85282"	33.3947	-111.978	2	9	Restaurants, Chinese, Food, Food Delivery Services, Buffets
+-2AQs-KdwG5QCwGBSsDoCA	Avis Car	"2000 Airport Road NE"	Calgary	AB	T2E 6W5	51.1318	-114.011	2	24	Car Rental, Hotels & Travel
+-2Arz8twKJmxHMS3Sv-TeA	Steep & Brew West	"6656 Odana Rd"	Madison	WI	"53719"	43.0561	-89.4955	3	29	Coffee & Tea, Juice Bars & Smoothies, Internet Cafes, Desserts, Food, Restaurants, Ice Cream & Frozen Yogurt
+-2ATYZeeA-9_qC-Whi0-2w	Mike Olbinski Photography	NULL	Phoenix	AZ	"85006"	33.4636	-112.054	5	4	Event Planning & Services, Event Photography, Photographers, Session Photography
+-2AZoPSeQKhjXXBfNEP7PQ	Café Zin-Zin	"1001 Rue Lenoir, E-202"	Montréal	QC	H4C 2Z6	45.4767	-73.5923	4	3	French, Restaurants, Cafes
+-2bLuJsMZ0WhI9daurVQNQ	Action Golf Cart Rentals and Sales	"1859 N Rosemont"	Mesa	AZ	"85205"	33.4497	-111.723	5	6	Active Life, Golf Cart Rentals, Sporting Goods, Golf Equipment, Golf Cart Dealers, Shopping, Golf, Automotive, Event Planning & Services
+-2C96suwzrE_cqI1U69cLA	Open Sesame	"6920 Macleod Tr S"	Calgary	AB	T2H 0L3	50.9921	-114.071	3	69	Asian Fusion, Restaurants, Bars, Nightlife, Wine Bars, Japanese
+-2CxlMIXhkyxotj7OaH30Q	Rfcellcom	"35340 Center Ridge Rd"	North Ridgeville	OH	"44039"	41.3926	-82.0108	5	3	IT Services & Computer Repair, Local Services, Mobile Phone Repair
+-2dlgoN1ass-zmrE5rqHGw	Pizza Hut	"2701 Leechburgh"	Lower Burrell	PA	"15068"	40.5903	-79.738	2	4	Chicken Wings, Restaurants, Pizza, Italian
+-2EAyppKR_2xuLyvJZEbRQ	Burrito Burrito	"171 E Liberty Street, Unit 131"	Toronto	ON	M6K 3P6	43.6384	-79.4184	2	18	Restaurants, Food, Mexican, Tex-Mex
+-2hDBMaza_ldqnZdiU06LQ	South Cove Apartments	"1525 Fremont St"	Las Vegas	NV	"89101"	36.1641	-115.128	2	7	Home Services, Real Estate, Apartments
+-2HjuT4yjLZ3b5f_abD87Q	Freeman's Car Stereo	"4821 South Blvd"	Charlotte	NC	"28217"	35.1727	-80.8755	4	13	Shopping, Automotive, Car Stereo Installation, Electronics
+-2hOglg7Lh8ZgclQJ9ba2w	URSA	"924 Queen Street W"	Toronto	ON	M6J	43.6449	-79.4159	3	62	Restaurants, American (New), Canadian (New)
+-2isRNVb6PDuBagELL5EBw	Taco Bell	"3507 W. Peoria Ave."	Phoenix	AZ	"85029"	33.5817	-112.136	3	24	Tex-Mex, Mexican, Fast Food, Restaurants
+-2KAjVCxfQ2YsmuXYLNEpw	DENNIS Uniform Phoenix	"3645 E Indian School Rd, Ste 1"	Phoenix	AZ	"85018"	33.4946	-112.003	4	4	Shopping, Uniforms
+-2L-SXb6OTKdmUkmEb1JAA	Sorrento Villas	"3580 E Alexander Rd"	Las Vegas	NV	"89115"	36.2335	-115.097	2	4	Property Management, Home Services, Real Estate, Apartments
+-2lSbNMhXKYu7URjEE59qA	Pho King	"3636 Steeles Ave E"	Markham	ON	L3R 2Z5	43.8184	-79.3298	2	18	Restaurants, Vietnamese
+-2MFmbCTycnU4uPJ7jXfcA	Horizon Safety Training	"5235 S Kyrene Rd, Ste 106"	Tempe	AZ	"85283"	33.3768	-111.945	5	9	First Aid Classes, Specialty Schools, Professional Services, CPR Classes, Education
+-2mS3lP1ccLLTg2oBB7OKQ	Boulangerie Arouch	"3467 Boul Saint-Martin O"	Laval	QC	H7T 1A2	45.5555	-73.7523	3	5	Food, Bakeries
+-2mTrGw66Sg-ipomugRlmw	Centra Food Market	"24 Orchard Heights Boulevard, Unit 104"	Aurora	ON	L4G 6S8	44.0092	-79.473	3	17	Grocery, Food
+-2Mwx1Mp10HTLlazfCBKdA	Nail Secrets	"2412 Ferguson Rd"	Hampton Township	PA	"15101"	40.5549	-79.9723	3	14	Day Spas, Beauty & Spas, Hair Removal, Nail Salons, Waxing
+-2P-_PVX-FtTKT2h1y5WMQ	Eric Andrew Collection At Town Square	"6623 Las Vegas Blvd S"	Las Vegas	NV	"89119"	36.0669	-115.177	4	6	Shopping, Jewelry
+-2P96xmk5E0MCKhgwH4nJA	Lorrie Emory Skin Care	"18137 Catawba Ave, Ste 5"	Cornelius	NC	"28031"	35.4609	-80.8892	4	3	Eyelash Service, Waxing, Skin Care, Beauty & Spas, Hair Removal
+-2pmn-oTJeybmDrL-ojwrw	New Wrap Order	NULL	Charlotte	NC	"28211"	35.166	-80.7935	4	21	Food Trucks, Wraps, Food, Street Vendors, Restaurants
+-2pQf1ceDZyE2ReCNbj-3A	Just Fresh	"14136 Rivergate Pkwy"	Charlotte	NC	"28273"	35.102	-80.9853	3	61	American (Traditional), Breakfast & Brunch, Food, Restaurants, Juice Bars & Smoothies
+-2q4dnUw0gGJniGW2aPamQ	Fiesta Ranchera	"1805 S Neil St"	Champaign	IL	"61820"	40.0941	-88.2458	2	4	Mexican, Restaurants
+-2Q6QUFk3jxMfiPJXsdWeA	Honn-Auto Repair	"431 S Stapley Dr, Ste 7"	Mesa	AZ	"85204"	33.4069	-111.805	4	13	Automotive, Auto Repair
+-2qfXy3hcWG0GEcE8QUKQw	Precision Air & Heating	"3045 N Colorado St"	Chandler	AZ	"85225"	33.351	-111.836	3	134	Home Services, Heating & Air Conditioning/HVAC, Contractors, Insulation Installation, Carpet Cleaning, Local Services, Plumbing
+-2QGc6Lb0R027lz0DpWN1A	Davis Glass & Mirror	"5135 S Valley View Blvd"	Las Vegas	NV	"89118"	36.0966	-115.19	4	70	Windows Installation, Glass & Mirrors, Local Services, Door Sales/Installation, Home Services
+-2R--HQiUyvN4qld52oL6g	L'Oeufrier NDG	"6544 Avenue Somerled"	Montréal	QC	H4V 1S8	45.4673	-73.6383	3	5	Breakfast & Brunch, Restaurants
+-2rB3j8WcmuchWp0CIdViQ	King's Path Condominium Association	NULL	North Olmsted	OH	"44070"	41.4118	-81.9153	1	3	Real Estate, Apartments, Home Services
+-2S3tYZEy-JbQonqdIsfqg	Epic Thrift	"4001 S Decatur Blvd"	Las Vegas	NV	"89102"	36.1183	-115.21	3	17	Antiques, Shopping, Thrift Stores
+-2TBP3ZGu7M-FmfoNJvbrQ	Rashers	"182 Ossington Avenue"	Toronto	ON	M6J 2Z7	43.6484	-79.4206	3	19	Sandwiches, Breakfast & Brunch, Restaurants, Comfort Food
+-2TKoFglMQvSmHSNWf6S8Q	U.S. Bank	"9719 N Hayden Rd"	Scottsdale	AZ	"85258"	33.575	-111.905	4	8	Banks & Credit Unions, Financial Services
+-2ToCaDFpTNmmg3QFzxcWg	Showtime Tours	"1550 S Industrial Rd"	Las Vegas	NV	"89102"	36.1547	-115.159	1	444	Transportation, Hotels & Travel, Travel Services, Airport Shuttles, Tours
+-2UBRY9opzc4GmCX3DBDdw	Red Rooster Antique Mall	"1109 Western Ave"	Las Vegas	NV	"89102"	36.1584	-115.159	3	6	Antiques, Shopping
+-2uhc4spgMqJMy0YSxConA	Alamo Rent A Car	"6033 S Sossaman Rd"	Mesa	AZ	"85212"	33.307	-111.669	4	31	Hotels & Travel, Car Rental
+-2uUrtgM5fiOaCpQEnPv0g	AT&T Store	"9330 Center Lake Dr"	Charlotte	NC	"28216"	35.3491	-80.8558	2	5	Mobile Phones, Mobile Phone Accessories, Shopping, IT Services & Computer Repair, Local Services, Telecommunications
+-2UWYfzeK65e6naWSEUz7g	Alliance Urgent Care	"15530 W Roosevelt St, Ste D101"	Goodyear	AZ	"85338"	33.4572	-112.393	2	13	Urgent Care, Health & Medical
+-2uYjztVuVZpkTNAC38zdg	Presotea	Bridlewood Mall, 2900 Warden Avenue, Unit 161	Toronto	ON	M1W 2S8	43.7991	-79.319	3	11	Coffee & Tea, Food
+-2v6N3EZAE4VDkAf7q3CrA	August Moon Chinese Restaurant	"9587 Weston Rd"	Woodbridge	ON	L4H 2M9	43.8339	-79.5577	2	4	Chinese, Restaurants
+-2wfiUn6AZm2KO0FJYakVQ	Men's Ultimate Grooming	"734 N McQueen Rd, Ste 103"	Gilbert	AZ	"85233"	33.3633	-111.825	4	29	Barbers, Men's Hair Salons, Hair Salons, Beauty & Spas
+-2wh_ZsD2n5xFYgzppcxNg	Bonga Korean Restaurant	"111 2 Avenue SE, Suite 201"	Calgary	AB	T2G 0B2	51.051	-114.062	4	28	Restaurants, Korean
+-2WsPmC49gP3RRk2UUUmpQ	Aldi	"100 Costco Dr"	Pittsburgh	PA	"15205"	40.4574	-80.167	3	3	Food, Grocery
+-2WW_cjFa9-UwKSmbEs78Q	Yum Yum BBQ Chicken	Southwood Corner Mall, 10233 Elbow Drive SW	Calgary	AB	T2W 1G1	50.9627	-114.087	4	24	Barbeque, Restaurants, Korean
+-2X9U7v-Avoib-ki0y85bA	Scottsdale Air Heating & Cooling	"1121 N Sickles Dr"	Tempe	AZ	"85281"	33.4421	-111.911	4	43	Heating & Air Conditioning/HVAC, Home Services
+-2XMn8phKIqizvss9PBLCw	Private Reserve Beef	NULL	Sun City	AZ	"85351"	33.6021	-112.28	3	3	Food Delivery Services, Food
+-2YIg-PAgCMXMLxw53T29Q	The UPS Store	"4802 E Ray Rd, Ste 23"	Phoenix	AZ	"85044"	33.3205	-111.98	4	31	Mailbox Centers, Printing Services, Notaries, Local Services, Shipping Centers
+-2ym8gLGnYV5uEgyMXnL7A	Amazing Las Vegas Comic Con	"3150 Paradise Rd"	Las Vegas	NV	"89109"	36.1325	-115.155	4	25	Books, Mags, Music & Video, Comic Books, Shopping
+-2ynmEkOCP4Qg39E0O1Ruw	KFC	"10594 Yonge  St"	Richmond Hill	ON	L4C 3C8	43.8856	-79.4412	1	7	Chicken Shop, Fast Food, American (Traditional), Chicken Wings, Restaurants
+-2zD7C4-Zn28NoytsyRP7Q	Kristin Taylor Events	NULL	Charlotte	NC	"28208"	35.213	-80.9097	3	3	Event Planning & Services, Party & Event Planning, Wedding Planning
