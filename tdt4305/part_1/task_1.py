@@ -53,15 +53,15 @@ def task_1a(bt_rdd, rt_rdd, fg_rdd):
     bt_size = bt_rdd.count()
     rt_size = rt_rdd.count()
     fg_size = fg_rdd.count()
-    return bt_size, rt_size, fg_size
+    return ("business_table", bt_size), ("review_table", rt_size), ("friendship_graph", fg_size)
 
 
 def run(bt_rdd, rt_rdd, fg_rdd):
     print(" --- TASK 1 --- ")
     bt_size, rt_size, fg_size = task_1a(bt_rdd, rt_rdd, fg_rdd)
-    print(f"Business table size: {bt_size}")
-    print(f"Reviews table size: {rt_size}")
-    print(f"Friendship graph size: {fg_size}")
+    print(f"Business table size: {bt_size[1]}")
+    print(f"Reviews table size: {rt_size[1]}")
+    print(f"Friendship graph size: {fg_size[1]}")
 
 def export(spark_context, bt_rdd, rt_rdd, fg_rdd):
     results_1a = task_1a(bt_rdd, rt_rdd, fg_rdd)

@@ -12,7 +12,7 @@ def _parse_range(range_):
     '''Used for parsing command line range arguments.'''
     try:
         start, *end = (int(i) for i in range_.split('-'))
-        end = end[0] if end else start + 1
+        end = end[0] if end else start
     except ValueError as e:
         raise ValueError(f"Bad range: '{range_}'")
     return range(start, end + 1)
