@@ -63,7 +63,7 @@ def run(bt_rdd, rt_rdd, fg_rdd):
     print(f"Reviews table size: {rt_size[1]}")
     print(f"Friendship graph size: {fg_size[1]}")
 
-def export(spark_context, bt_rdd, rt_rdd, fg_rdd):
+def export(spark_context, bt_rdd, rt_rdd, fg_rdd, output_dir, extension):
     results_1a = task_1a(bt_rdd, rt_rdd, fg_rdd)
 
     # Convert data to RDD
@@ -73,7 +73,7 @@ def export(spark_context, bt_rdd, rt_rdd, fg_rdd):
     rdd_1a = rdd_1a.map(utils.parse_row)
     
     # Write to file
-    path = "./results/task_1a.tsv"
+    path = f"{output_dir}/task_1a.{extension}"
     print(f"Writing to '{path}' ...")
     rdd_1a.coalesce(1).saveAsTextFile(path)
     print(f"Done writing to '{path}'\n")

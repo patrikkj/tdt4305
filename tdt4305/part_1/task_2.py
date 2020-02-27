@@ -102,7 +102,7 @@ def run(rt_rdd):
     pcc = task_2f(rt_rdd)
     print(f"PCC = {pcc}")
 
-def export(spark_context, rt_rdd):
+def export(spark_context, rt_rdd, output_dir, extension):
     for subtask in (task_2a, task_2b, task_2c, task_2d, task_2e, task_2f):
         results = subtask(rt_rdd)
 
@@ -113,7 +113,7 @@ def export(spark_context, rt_rdd):
         results_rdd = results_rdd.map(utils.parse_row)
         
         # Write to file
-        path = f"./results/{subtask.__name__}.tsv"
+        path = f"{output_dir}/{subtask.__name__}.{extension}"
         print(f"Writing to '{path}' ...")
         results_rdd.coalesce(1).saveAsTextFile(path)
         print(f"Done writing to '{path}'\n")

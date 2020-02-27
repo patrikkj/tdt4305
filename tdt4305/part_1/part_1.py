@@ -1,4 +1,4 @@
-import sys
+import os, sys
 
 from pyspark import SparkConf, SparkContext
 from pyspark.sql import SQLContext
@@ -13,6 +13,9 @@ BT_PATH = "samples/yelp_businesses_sample.csv"
 RT_PATH = "samples/yelp_top_reviewers_with_reviews_sample.csv"
 FG_PATH = "samples/yelp_top_users_friendship_graph_sample.csv"
 paths = (BT_PATH, RT_PATH, FG_PATH) 
+
+OUTPUT_DIR = "./results"
+
 
 
 # Initialization
@@ -42,7 +45,7 @@ def run(tasks):
     for task in tasks:
         globals()[f'task_{task}'].run(*run_args[task])
 
-def export_tsv(tasks):
+def export_csv(tasks, extension):
     # Load RDDs (task 1a) and dataframes (task 5a)
     bt_rdd_raw, rt_rdd_raw, fg_rdd_raw = task_1.load_rdds(spark_context, paths)
     bt_rdd, rt_rdd, fg_rdd = task_1.preprocessing(bt_rdd_raw, rt_rdd_raw, fg_rdd_raw)
@@ -62,20 +65,23 @@ def export_tsv(tasks):
         header = f"Exporting task {task}"
         print(header)
         print('-'*len(header))
-        globals()[f'task_{task}'].export(*export_args[task])
+        globals()[f'task_{task}'].export(*export_args[task], OUTPUT_DIR, extension)
         print()
 
 def export_txt(tasks):
     '''Redirects console output to file.'''
-    print("Writing console output to './results/output.txt' ...")
-    with open(f"./results/output.txt", 'w') as sys.stdout:
+    path = f"{OUTPUT_DIR}/output.txt"
+    print(f"Writing console output to '{path}' ...")
+    with open(path, 'w') as sys.stdout:
         run(tasks)
 
 
 def main(action, tasks):
     if action == 'run':
         run(tasks)
+    elif action == 'export-csv':
+        export_csv(tasks, 'csv')
     elif action == 'export-tsv':
-        export_tsv(tasks)
+        export_csv(tasks, 'tsv')
     elif action == 'export-txt':
         export_txt(tasks)

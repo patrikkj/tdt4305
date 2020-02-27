@@ -73,7 +73,7 @@ def run(fg_rdd):
     print(f"means = {means}")
     print(f"medians = {medians}")
 
-def export(spark_context, fg_rdd):
+def export(spark_context, fg_rdd, output_dir, extension):
     for subtask in (task_4a, task_4b):
         results = subtask(fg_rdd)
 
@@ -84,7 +84,7 @@ def export(spark_context, fg_rdd):
         results_rdd = results_rdd.map(utils.parse_row)
         
         # Write to file
-        path = f"./results/{subtask.__name__}.tsv"
+        path = f"{output_dir}/{subtask.__name__}.{extension}"
         print(f"Writing to '{path}' ...")
         results_rdd.coalesce(1).saveAsTextFile(path)
         print(f"Done writing to '{path}'\n")

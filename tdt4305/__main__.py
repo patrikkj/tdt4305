@@ -20,7 +20,7 @@ def _parse_range(range_):
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-parser.add_argument('--action', choices=('run', 'export-tsv', 'export-txt'), default='run', help=" ")
+parser.add_argument('--action', choices=('run', 'export-csv', 'export-tsv', 'export-txt'), default='run', help=" ")
 parser.add_argument('--tasks', default='1-6', help=" ")
 # parser.print_help()
 args = parser.parse_args()

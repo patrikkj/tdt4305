@@ -47,17 +47,17 @@ def run(sql_context, bt_df, rt_df, fg_df):
     top_users = task_6c(bt_df, rt_df, fg_df)
     print(f"top_users = {top_users}")
 
-def export(spark_context, sql_context, bt_df, rt_df, fg_df):
+def export(spark_context, sql_context, bt_df, rt_df, fg_df, output_dir, extension):
     results_6a = task_6a(bt_df, rt_df, fg_df)
     results_6b = task_6b(sql_context, bt_df, rt_df, fg_df)
     results_6c = task_6c(bt_df, rt_df, fg_df)
 
-    path_6a = "./results/task_6a.tsv"
+    path_6a = f"{output_dir}/task_6a.{extension}"
     print(f"Writing to '{path_6a}' ...")
     results_6a.coalesce(1).write.csv(path_6a)
     print(f"Done writing to '{path_6a}'\n")
 
-    path_6b = f"./results/task_6b.txt"
+    path_6b = f"{output_dir}/task_6b.txt"
     print(f"Writing to '{path_6b}' ...")
     with open(path_6b, "w") as text_file:
         print(results_6b, file=text_file)
@@ -67,7 +67,7 @@ def export(spark_context, sql_context, bt_df, rt_df, fg_df):
     results_6c_rdd = utils.to_rdd(spark_context, results_6c)
     results_6c_rdd = results_6c_rdd.map(utils.parse_row)
 
-    path_6c = f"./results/task_6c.tsv"
+    path_6c = f"{output_dir}/task_6c.{extension}"
     print(f"Writing to '{path_6c}' ...")
     results_6c_rdd.coalesce(1).saveAsTextFile(path_6c)
     print(f"Done writing to '{path_6c}'\n")

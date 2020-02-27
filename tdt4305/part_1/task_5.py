@@ -65,10 +65,10 @@ def run(bt_df, rt_df, fg_df):
     print("\n --- TASK 5a --- ")
     print(task_5a(bt_df, rt_df, fg_df))
 
-def export(spark_context, bt_df, rt_df, fg_df):
+def export(spark_context, bt_df, rt_df, fg_df, output_dir, extension):
     results = task_5a(bt_df, rt_df, fg_df) 
     
-    path = f"./results/task_5a.txt"
+    path = f"{output_dir}/task_5a.txt"
     print(f"Writing to '{path}' ...")
     with open(path, "w") as text_file:
         print(results, file=text_file)

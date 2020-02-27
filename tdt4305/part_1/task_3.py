@@ -44,7 +44,7 @@ def run(bt_rdd):
     centroids = task_3c(bt_rdd).collect()
     print(f"centroids = {sorted(centroids)}")
 
-def export(spark_context, bt_rdd):
+def export(spark_context, bt_rdd, output_dir, extension):
     for subtask in (task_3a, task_3b, task_3c):
         results = subtask(bt_rdd)
 
@@ -55,7 +55,7 @@ def export(spark_context, bt_rdd):
         results_rdd = results_rdd.map(utils.parse_row)
         
         # Write to file
-        path = f"./results/{subtask.__name__}.tsv"
+        path = f"{output_dir}/{subtask.__name__}.{extension}"
         print(f"Writing to '{path}' ...")
         results_rdd.coalesce(1).saveAsTextFile(path)
         print(f"Done writing to '{path}'\n")
