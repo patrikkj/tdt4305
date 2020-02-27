@@ -1,0 +1,14 @@
+SqlContext.tables() before execution
++--------+---------+-----------+
+|database|tableName|isTemporary|
++--------+---------+-----------+
++--------+---------+-----------+
+
+
+SqlContext.tables() after execution
++--------+----------+-----------+
+|database| tableName|isTemporary|
++--------+----------+-----------+
+|        |temp_table|       true|
++--------+----------+-----------+
+

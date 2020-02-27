@@ -132,3 +132,4 @@ dmypy.json
 **/venv2/
 **/.vscode
 **/data
+**/spark-warehouse
