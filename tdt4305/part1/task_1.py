@@ -1,12 +1,12 @@
 import base64
-import tdt4305.utils as utils
+from .. import utils
 
 
 def load_rdds(spark_context, paths):
     """
     Loads each CSV file into separate RDD objects.
     """
-    rdds = [spark_context.textFile(path, ) for path in paths]
+    rdds = (spark_context.textFile(path, ) for path in paths)
     bt_rdd, rt_rdd, fg_rdd = rdds
 
     bt_rdd_raw = bt_rdd.map(lambda line: line.split("\t"))

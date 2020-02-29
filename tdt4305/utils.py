@@ -1,6 +1,10 @@
+import os
 from itertools import chain
 import pyspark
 
+
+def gen_path(directory, filename):
+    return os.path.join(os.path.abspath(directory), filename)
 
 def to_rdd(spark_context, data):
     if isinstance(data, pyspark.rdd.RDD):

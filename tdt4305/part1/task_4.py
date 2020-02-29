@@ -1,5 +1,5 @@
 from operator import add
-import tdt4305.utils as utils
+from .. import utils
 
 
 def task_4a(fg_rdd):

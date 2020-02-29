@@ -1,5 +1,5 @@
 import csv, io, os
-import tdt4305.utils as utils
+from .. import utils
 
 def task_3a(bt_rdd):
     """

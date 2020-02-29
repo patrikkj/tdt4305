@@ -1,5 +1,5 @@
 from datetime import datetime
-import tdt4305.utils as utils
+from .. import utils
 
 
 def task_2a(rt_rdd):

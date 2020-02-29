@@ -1,6 +1,6 @@
 from pyspark.sql import SQLContext, types
 from pyspark.sql.functions import from_unixtime
-import tdt4305.utils as utils
+from .. import utils
 
 
 def load_dataframes(sql_context, paths):

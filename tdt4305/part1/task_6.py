@@ -1,4 +1,4 @@
-import tdt4305.utils as utils
+from .. import utils
 
 
 def task_6a(bt_df, rt_df, fg_df):
