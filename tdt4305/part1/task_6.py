@@ -1,6 +1,19 @@
 from .. import utils
 
 
+# Wheter to crop the output of subtask 6a due to its size
+# The full file is about 1.2 GB, making uploading our 
+# solutions to BlackBoard impractical.
+CROP_VERY_LARGE_FILES = True
+
+# Subtask 6a output formats:
+# IF TRUE - '.txt' file of the format:
+#       Inner join of 'review table' and 'business table' on 'business_id'
+#       Number of rows: 883737
+#       {PRINT OF TOP 20 ROWS WITH COLUMN HEADERS}
+# IF FALSE - '.csv' file with the full inner joined table (about 1.2 GB):
+
+
 def task_6a(bt_df, rt_df, fg_df):
     """
     Inner join review table and business table on business_id column.
@@ -52,10 +65,24 @@ def export(spark_context, sql_context, bt_df, rt_df, fg_df, output_dir, extensio
     results_6b = task_6b(sql_context, bt_df, rt_df, fg_df)
     results_6c = task_6c(bt_df, rt_df, fg_df)
 
-    path_6a = f"{output_dir}/task_6a.{extension}"
-    print(f"Writing to '{path_6a}' ...")
-    results_6a.coalesce(1).write.csv(path_6a)
-    print(f"Done writing to '{path_6a}'\n")
+    if CROP_VERY_LARGE_FILES:
+        results_6a = '\n'.join([
+            "Inner join of 'review table' and 'business table' on 'business_id'\n",
+            "NOTE: The output of this subtask is cropped due to its size (about 1.2 GB).",
+            "      To export the entire file as '.csv', set CROP_VERY_LARGE_FILES in './tdt4305/part1/task_6.py' to False.\n",
+            f"Number of rows: {results_6a.count()}",
+            results_6a._jdf.showString(20, 20, False)
+        ])
+        path_6a = f"{output_dir}/task_6a.txt"
+        print(f"Writing to '{path_6a}' ...")
+        with open(path_6a, "w") as text_file:
+            print(results_6a, file=text_file)
+        print(f"Done writing to '{path_6a}'\n")
+    else:
+        path_6a = f"{output_dir}/task_6a.{extension}"
+        print(f"Writing to '{path_6a}' ...")
+        results_6a.coalesce(1).write.csv(path_6a)
+        print(f"Done writing to '{path_6a}'\n")
 
     path_6b = f"{output_dir}/task_6b.txt"
     print(f"Writing to '{path_6b}' ...")

@@ -1,4 +1,4 @@
-import os, sys
+import sys
 
 from pyspark import SparkConf, SparkContext
 from pyspark.sql import SQLContext
@@ -18,6 +18,7 @@ RT_FILENAME = "yelp_top_reviewers_with_reviews.csv"
 FG_FILENAME = "yelp_top_users_friendship_graph.csv"
 FILENAMES = (BT_FILENAME, RT_FILENAME, FG_FILENAME) 
 
+
 def initialize():
     # Initialization
     conf = SparkConf()
@@ -29,7 +30,7 @@ def initialize():
 
 def load_data(spark_context, sql_context, input_dir):
     # Load RDDs (task 1a) and dataframes (task 5a)
-    paths = (utils.gen_path(input_dir, filename) for filename in FILENAMES)
+    paths = list(utils.gen_path(input_dir, filename) for filename in FILENAMES)
     raw_rdds = task_1.load_rdds(spark_context, paths)
     rdds = task_1.preprocessing(*raw_rdds)
     dataframes = task_5.load_dataframes(sql_context, paths)

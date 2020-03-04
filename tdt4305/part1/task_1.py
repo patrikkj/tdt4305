@@ -23,13 +23,17 @@ def preprocessing(bt_rdd_raw, rt_rdd_raw, fg_rdd_raw):
     """
 
     # Extract headers
-    bt_header = bt_rdd_raw.first() 
-    rt_header = rt_rdd_raw.first() 
-    fg_header = fg_rdd_raw.first()
+    # bt_header = bt_rdd_raw.first() 
+    # rt_header = rt_rdd_raw.first() 
+    # fg_header = fg_rdd_raw.first()
 
-    bt_rdd = bt_rdd_raw.filter(lambda row: row != bt_header)
-    rt_rdd = rt_rdd_raw.filter(lambda row: row != rt_header)
-    fg_rdd = fg_rdd_raw.filter(lambda row: row != fg_header)
+    # bt_rdd = bt_rdd_raw.filter(lambda row: row != bt_header)
+    # rt_rdd = rt_rdd_raw.filter(lambda row: row != rt_header)
+    # fg_rdd = fg_rdd_raw.filter(lambda row: row != fg_header)
+    
+    bt_rdd = bt_rdd_raw.mapPartitionsWithIndex(lambda i, iter_: iter_.drop(1) if (i == 0) else iter_)
+    rt_rdd = rt_rdd_raw.mapPartitionsWithIndex(lambda i, iter_: iter_.drop(1) if (i == 0) else iter_)
+    fg_rdd = fg_rdd_raw.mapPartitionsWithIndex(lambda i, iter_: iter_.drop(1) if (i == 0) else iter_)
 
     # Decode review text strings
     def review_text_decoder(row):
@@ -59,9 +63,9 @@ def task_1a(bt_rdd, rt_rdd, fg_rdd):
 def run(bt_rdd, rt_rdd, fg_rdd):
     print(" --- TASK 1 --- ")
     bt_size, rt_size, fg_size = task_1a(bt_rdd, rt_rdd, fg_rdd)
-    print(f"Business table size: {bt_size[1]}")
-    print(f"Reviews table size: {rt_size[1]}")
-    print(f"Friendship graph size: {fg_size[1]}")
+    print(f"Business table size = {bt_size[1]}")
+    print(f"Reviews table size = {rt_size[1]}")
+    print(f"Friendship graph size = {fg_size[1]}")
 
 def export(spark_context, bt_rdd, rt_rdd, fg_rdd, output_dir, extension):
     results_1a = task_1a(bt_rdd, rt_rdd, fg_rdd)

@@ -1,0 +1,32 @@
+Inner join of 'review table' and 'business table' on 'business_id'
+
+NOTE: The output of this subtask is cropped due to its size (about 1.2 GB).
+      To export the entire file as '.csv', set CROP_VERY_LARGE_FILES in './tdt4305/part1/task_6.py' to False.
+
+Number of rows: 883737
++--------------------+--------------------+--------------------+--------------------+-------------------+--------------------+--------------------+---------+-----+-----------+--------+---------+-----+------------+--------------------+
+|         business_id|           review_id|             user_id|         review_text|        review_date|                name|             address|     city|state|postal_code|latitude|longitude|stars|review_count|          categories|
++--------------------+--------------------+--------------------+--------------------+-------------------+--------------------+--------------------+---------+-----+-----------+--------+---------+-----+------------+--------------------+
+|--9e1ONYQuAa-CB_R...|v8QPs6AaixrqXvC5r...|---1lKK3aKOuomHnw...|U28gd2hlbiB5b3UgZ...|2008-11-11 04:39:44|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|PJLBGBr2IU4rN4RTd...|-fQPzH-e-ubDIiLQh...|NC41IFN0YXJzIApEZ...|2008-11-12 03:27:12|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|XC64r62vBt6G3IuVc...|-k5yFUChotBMGQgHd...|SWYgSSBoYWQgdG8gY...|2009-06-19 08:43:12|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|vyaZbtXU6GxrCV96C...|-lh59ko3dxChBSZ9U...|QWxsIHRoZSB5ZWFyc...|2016-01-06 13:58:40|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|mkZT8o94sZg8Oq8br...|0nqshyLgABOSyTfJU...|SSBkaWQgdGhlIDIwM...|2012-08-31 05:44:00|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|e-rkMqQ3CRIXRfI_9...|1DsuFRjdW0gDA23Xs...|SSBzdHVtYmxlZCBpb...|2013-01-16 07:15:28|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|Voxz7AA_QJ1JO5XCI...|2-XLTj0Cfd81_XlmH...|V29uZGVyZnVsIGV4c...|2014-04-27 23:49:52|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|jMt1kywOn9nLZNoe5...|33v8c5ftrKuDGTw1Z...|SGFkIGFuIGFsbCBhc...|2011-11-20 00:08:48|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|eA3hnRdUFMkA5UJyI...|3nIuSCZk5f_2WWYML...|TXkgaHVzYmFuZCBhb...|2015-11-30 14:15:44|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|ho7ZJ6cCt9tCwhjQH...|3Qv2rjPXC2eNKyV5l...|TXkgZXhwZXJpZW5jZ...|2015-12-25 21:22:24|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|l542y7n6jS3NLjmtO...|4vj_0BQeXjCyNB7ES...|SXZlIGFsd2F5cyB3Y...|2018-10-08 12:27:12|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|iTj2iW1NLosW9VTAk...|51UaY_JKrEOzA1CeE...|RGVsbW9uaWNvJ3Mga...|2009-04-29 21:24:48|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|VyehUmce7FrrBV1V-...|5gbkhlWANGVzQYi_0...|My41IHN0YXJzIC0gY...|2016-12-05 05:24:32|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|8yphpp8IFMg7-lN32...|7PVY7A7Top7ButcfL...|VGhpcyBpcyBieSBmY...|2014-05-26 19:53:04|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|ziAOQCWdzbd-up4NA...|8959F5stCzJWI_I7d...|SSBoYXZlIGJlZW4gb...|2010-02-11 16:10:56|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|FL4hkXCgu6sjllHJ6...|8DEyKVyplnOcSKx39...|SSBndWVzcyB0aGUgN...|2009-03-08 23:06:56|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|x1X8isx-AZdCAINKw...|8DEyKVyplnOcSKx39...|SSBjYW4ndCBkZWNpZ...|2007-09-27 07:09:20|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|8uDohBge3oaAE68_5...|8e2KqFt1W67MA3ah0...|SGFkIGEgY29ycG9yY...|2018-03-06 07:11:12|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|qadtYfh4US1WH6dD0...|8OeTLey-p-WaL9ErN...|Q2FtZSBoZXJlIGZvc...|2013-03-16 15:58:08|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
+|--9e1ONYQuAa-CB_R...|Jjz9W-wBkoBoMcB8Z...|9bxdPvAhP6cuipD5s...|V2UgaGFkIGVhcmx5I...|2011-12-20 16:06:40|Delmonico Steakhouse|3355 Las Vegas Bl...|Las Vegas|   NV|      89109| 36.1232| -115.169|  4.0|        1613|Cajun/Creole, Sea...|
++--------------------+--------------------+--------------------+--------------------+-------------------+--------------------+--------------------+---------+-----+-----------+--------+---------+-----+------------+--------------------+
+only showing top 20 rows
+

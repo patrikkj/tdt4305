@@ -33,7 +33,7 @@ def load_dataframes(sql_context, paths):
         types.StructField("src_user_id", types.StringType(), True),
         types.StructField("dst_user_id", types.StringType(), True)
     ])
-
+    
     BT_PATH, RT_PATH, FG_PATH = paths
     bt_df = sql_context.read.csv(BT_PATH, schema=_bt_struct, sep='\t', header=True)
     rt_df = sql_context.read.csv(RT_PATH, schema=_rt_struct, sep='\t', header=True)
