@@ -1,5 +1,7 @@
-import base64
+from base64 import b64decode
 from .. import utils
+from pyspark.sql.functions import unbase64
+from itertools import islice
 
 
 def load_rdds(spark_context, paths):
@@ -21,27 +23,16 @@ def preprocessing(bt_rdd_raw, rt_rdd_raw, fg_rdd_raw):
     Returns:
         A tuple containing each of the processed RDD objects.
     """
-
-    # Extract headers
-    # bt_header = bt_rdd_raw.first() 
-    # rt_header = rt_rdd_raw.first() 
-    # fg_header = fg_rdd_raw.first()
-
-    # bt_rdd = bt_rdd_raw.filter(lambda row: row != bt_header)
-    # rt_rdd = rt_rdd_raw.filter(lambda row: row != rt_header)
-    # fg_rdd = fg_rdd_raw.filter(lambda row: row != fg_header)
-    
-    bt_rdd = bt_rdd_raw.mapPartitionsWithIndex(lambda i, iter_: iter_.drop(1) if (i == 0) else iter_)
-    rt_rdd = rt_rdd_raw.mapPartitionsWithIndex(lambda i, iter_: iter_.drop(1) if (i == 0) else iter_)
-    fg_rdd = fg_rdd_raw.mapPartitionsWithIndex(lambda i, iter_: iter_.drop(1) if (i == 0) else iter_)
+    # Remove headers
+    bt_rdd = bt_rdd_raw.mapPartitionsWithIndex(lambda idx, it: islice(it, 1, None) if idx == 0 else it )
+    rt_rdd = rt_rdd_raw.mapPartitionsWithIndex(lambda idx, it: islice(it, 1, None) if idx == 0 else it )
+    fg_rdd = fg_rdd_raw.mapPartitionsWithIndex(lambda idx, it: islice(it, 1, None) if idx == 0 else it )
 
     # Decode review text strings
     def review_text_decoder(row):
-        review_text_b64 = row[3]
-        review_text_bytes = base64.b64decode(review_text_b64)
-        review_text = review_text_bytes.decode('utf-8', errors='replace')
-        row[3] = review_text
+        row[3] = b64decode(row[3]).decode('utf-8', errors='replace')
         return row
+        
     rt_rdd = rt_rdd.map(review_text_decoder)
 
     # Change storage policy
